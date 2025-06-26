@@ -1,0 +1,31 @@
+body {
+    background-color: var(--white);
+
+    p, a {
+        font-family: 'IBMPlexSans';
+    }
+
+    footer {
+        background-image: url('../images/10.svg');
+        background-size: cover;
+
+        width: 96%;
+        height: 13vw;
+        margin-top: 12vw;
+        padding: 2vw;
+
+        display: flex;
+        flex-direction: row;
+        gap: 1vw;
+        align-items: flex-end;
+        justify-content: flex-end;
+
+        p, a {
+            color: var(--white);
+            font-size: 1.25rem;
+
+            text-decoration: none;
+        }
+    }
+
+}

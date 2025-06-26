@@ -1,0 +1,61 @@
+.O_promo {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    align-items: center;
+    margin-top: -34vw;
+
+    .A_headingText {
+        width: 44vw;
+
+        p {
+            text-align: center;
+            font-family: "Steinbeck";
+            font-size: 3rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 98.4%;
+            /* 3.321rem */
+        }
+    }
+
+    input {
+        display: flex;
+        width: 309px;
+        height: 59.529px;
+        padding: 16px 78px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        background-color: var(--green);
+        border: none;
+    }
+}
+
+.O_promo.beforeLast {
+    margin-top: -106vw;
+}
+
+.O_promo.last {
+    margin-top: 67vw;
+
+    input {
+        height: fit-content;
+        background-color: var(--light-grey);
+        border-bottom: 1px solid var(--black);
+    }
+
+    button {
+        display: flex;
+        width: fit-content;
+        height: fit-content;
+        padding: 1vw 2.2vw;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        background-color: var(--green);
+        border: none;
+    }
+}
